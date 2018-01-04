@@ -7,8 +7,11 @@
     <script src="assets/js/angular/angular.min.js"></script>
     <script src="assets/js/angular/angular-route.min.js"></script>
 
+    </script>
+
     <!--module-->
     <script src="assets/js/angular/module.js"></script>
+
 
 
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
@@ -21,11 +24,16 @@
     <!-- Bootstrap core CSS     -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
 
     <!--     Fonts and icons     -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="assets/js/bootstrap.min.js">
+
+    </script>
 
   </head>
   <body ng-controller='myctr'>
@@ -38,8 +46,60 @@
                     <span class="navbar-toggler-bar"></span>
                     <span class="navbar-toggler-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#!/home">AISEC MOROCCO</a>
-            </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="navbar-brand" href="#!/home">AIESEC FOR MOROCCO</a></li>
+                  </ul>
+                   <ul class="nav navbar-nav">
+                     <li class="dropdown">
+
+                  <a href="#" class="navbar-brand" data-toggle="dropdown">Projects <b class="caret"></b></a>
+
+                  <ul class="dropdown-menu">
+
+                    <li><a  class="dropdown-item" href="#">Yalla discover</a></li>
+
+                    <li><a  class="dropdown-item" href="#">Yalla environment</a></li>
+
+                    <li><a  class="dropdown-item" href="#">Yalla education</a></li>
+
+                    <li><a class="dropdown-item" href="#">Yalla gender equality</a></li>
+
+                    <li><a  class="dropdown-item" href="#">Yalla health</a></li>
+
+                    <li><a  class="dropdown-item" href="#">Yalla social entrepreneurshi</a></li>
+
+                  </ul>
+
+                </li>
+
+              </ul>
+
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+
+             <a href="#" class="navbar-brand" data-toggle="dropdown">About <b class="caret"></b></a>
+
+             <ul class="dropdown-menu">
+
+               <li><a  class="dropdown-item" href="#">NATIONAL OFFICE</a></li>
+
+               <li><a  class="dropdown-item" href="#">GLOBAL OFFICE</a></li>
+
+               <li><a  class="dropdown-item" href="#">LOCAL OFFICE</a></li>
+
+             </ul>
+
+           </li>
+
+         </ul>
+
+            </div><!-- /.navbar-collapse -->
+
+
+          </div>
+
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -60,19 +120,14 @@
                             <p class="d-lg-none">Instagram</p>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="#" target="_blank">
-                            <i class="fa fa-github"></i>
-                            <p class="d-lg-none">GitHub</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-						<a href="#!/home" target="_blank" class="btn btn-danger btn-round">SIGN IN</a>
+
+						<a href="view/signin.html" target="_blank" class="btn btn-danger btn-round">signin</a>
 					</li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="wrapper">
         <div class="page-header section-dark" style="background-image: url('assets/img/antoine-barres.jpg')">
             <div class="filter"></div>
@@ -90,22 +145,26 @@
     					</div>
     				</div>
 
-    				<h2 class="presentation-subtitle text-center">Impact people</h2>
+    				<h2 class="presentation-subtitle text-center"> Leaders for the world</h2>
     			</div>
+          <br><br><br><br><br><br>
+          <div id="explore" align="center">
+            <a href="javascript:void(0);" id="back_to_top" rel="home_about"><img src="assets/img/ic_explore.png"><br>EXPLORE</a>
+          </div>
     		</div>
-            <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); ">
-
-            </div>
+        <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); ">
+        </div>
     		<!--you can add something here :) -->
     	</div>
+    </div>
 
-      
+
 <!--change content-->
 <div class="nav-tabs-navigation">
     <div class="nav-tabs-wrapper">
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Home</a>
+                <a class="nav-link active" data-toggle="tab" href="#!/home" role="tab">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a>
@@ -124,14 +183,6 @@
         </ul>
     </div>
 </div>
-<!-- Tab panes -->
-<div class="tab-content text-center">
-    <div class="tab-pane active" id="home" role="tabpanel">Here is information about home.</div>
-    <div class="tab-pane" id="profile" role="tabpanel">Here is your profile.</div>
-    <div class="tab-pane" id="messages" role="tabpanel">Here are your messages.</div>
-    <div class="tab-pane" id="action" role="tabpanel">Vestibulum ex velit, cursus in mauris in, egestas tempor orci.</div>
-    <div class="tab-pane" id="another-action" role="tabpanel">Ut sem metus, lacinia id lobortis vel, mollis ut quam.</div>
-</div>
 
 
 <!-- view change here -->
@@ -144,9 +195,7 @@
             <div class="row">
                 <nav class="footer-nav">
                     <ul>
-                        <li><a href="#">Creative Tim</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                        <li><a href="#!/contact">Contact us</a></li>
                     </ul>
                 </nav>
                 <div class="credits ml-auto">

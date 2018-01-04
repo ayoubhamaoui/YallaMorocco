@@ -4,8 +4,8 @@ module.config(function($routeProvider){
   $routeProvider.when('/home',{
     templateUrl:'view/home.html',
   })
-  .when('/list',{
-    templateUrl:'view/page2.html',
+  .when('/contact',{
+    templateUrl:'view/contact.html',
     controller:'myctr',
   })
   .when('/start',{

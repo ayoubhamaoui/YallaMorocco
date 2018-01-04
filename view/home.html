@@ -1,21 +1,15 @@
-<div>
-<button ng-click='order="name"'>order by name</button>
-<button ng-click='order="age"'>order by age</button>
-</div>
-<input type="text" ng-model='search' placeholder="Search...">
-<div>
-  Hide: <input type="checkbox" ng-model="toHide" ng-checked='toHide'>
-</div>
-<ul>
-  <li ng-repeat='x in person|filter:search|orderBy:order' ng-hide='toHide' style='color:{{x.color}}' >{{x.name|uppercase}}
-  <span style='color:red;font-size:1.5em;margin-left:2cm' ng-click='del(x)'>X</span>
-</li>
-</ul>
+<div class="container">
+<!--         what is row -->
+            <div class="row tim-row">
+                <h2 class="text-center">What is AIESEC?</h2>
+                <legend></legend>
+                <div class="col-md-8 col-md-offset-2">
+                    <p>
+                    AIESEC is a global youth-led organisation striving to achieve peace and fulfillment of humankind’s potential. Together with partner organisations, AIESEC facilitates cross-cultural exchanges in the form of volunteering experiences & professional internships.
+                    </p>
 
-<form ng-submit='addnew()'>
-  <br>
-  <input type="text" ng-model="new.name" placeholder="name"><br>
-  <input type="text" ng-model="new.age" placeholder="age"><br>
-  <input type="text" ng-model="new.color" placeholder="color"><br>
-  <input type="submit" value="addNew">
-</form>
+                </div>
+
+            </div>
+<!--         end row -->
+</div>
