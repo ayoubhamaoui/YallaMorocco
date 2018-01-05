@@ -7,10 +7,13 @@
     <script src="assets/js/angular/angular.min.js"></script>
     <script src="assets/js/angular/angular-route.min.js"></script>
 
-    </script>
-
     <!--module-->
     <script src="assets/js/angular/module.js"></script>
+
+
+    <!-- Typed -->
+    <script type="text/javascript" src="assets/js/typed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 
@@ -27,8 +30,10 @@
   <link rel="stylesheet" href="style.css">
 
     <!--     Fonts and icons     -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+
     <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
 
     <script type="text/javascript" src="assets/js/bootstrap.min.js">
@@ -68,7 +73,7 @@
 
                     <li><a  class="dropdown-item" href="#">Yalla health</a></li>
 
-                    <li><a  class="dropdown-item" href="#">Yalla social entrepreneurshi</a></li>
+                    <li><a  class="dropdown-item" href="#">Yalla social entrepreneurship</a></li>
 
                   </ul>
 
@@ -121,7 +126,7 @@
                         </a>
                     </li>
 
-						<a href="view/signin.html" target="_blank" class="btn btn-danger btn-round">signin</a>
+						<a href="view/signin.html" target="_blank" class="btn btn-primary btn btn-info btn-just-icon">signin</a>
 					</li>
                 </ul>
             </div>
@@ -144,8 +149,21 @@
     						<img src="assets/img/fog-low.png" alt="">
     					</div>
     				</div>
+            <div id="typed-strings">
+            <p>LEADERS <strong>FOR </strong> <strong>THE WORLD<strong></p><style media="screen">
+              strong{
+                color: #2ba9cd;
+              }
+            </style>
+            </div>
 
-    				<h2 class="presentation-subtitle text-center"> Leaders for the world</h2>
+    				<h2 class="presentation-subtitle text-center"><span id="typed"></span> <script>
+              var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed:100,
+                loop:true
+              });
+            </script></h2>
     			</div>
           <br><br><br><br><br><br>
           <div id="explore" align="center">
@@ -225,5 +243,8 @@
 
     <!--  Paper Kit Initialization snd functons -->
     <script src="assets/js/paper-kit.js?v=2.1.0"></script>
+
+
+
   </body>
 </html>
