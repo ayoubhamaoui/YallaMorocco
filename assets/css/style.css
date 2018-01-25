@@ -1,0 +1,216 @@
+.two_thirds {
+    float: left;
+    width: 50%;
+}
+
+.what {
+        font-size: 2.6rem;
+    float: left;
+}
+
+.stats{
+    width: auto;
+    height: auto;
+}
+
+.blue{
+    color: #037ef3;
+}
+
+.red{
+  color: #ff0000;
+}
+.green{
+  color: #006838;
+}
+
+.border{
+    border-bottom: 1px #eee solid;
+    /*background: url(../img/map.jpg);*/
+}
+
+.bg5{
+  background: url(../img/bg/bg5.jpg)
+}
+
+.bg-gradient1{
+  background-image: linear-gradient(to bottom right, #006838, #ED1C24);
+}
+
+@font-face {
+    font-family: Hairline;
+    src: url(../font/Lato-Hairline.ttf);
+}
+
+@font-face {
+  font-family: Rail;
+  src: url(../font/Third-Rail-Demo.ttf);
+}
+
+.Rail{
+  font-family: Rail;
+}
+
+.Hairline{
+  font-family: Hairline;
+}
+
+.navbar-brand{
+    font-family: "Lato-Regular";
+}
+
+.logoimg {
+    display: block;
+    max-width: 100%;
+    max-height: 60px;
+    margin-top: 0px
+}
+
+.section-tabs {
+    background-color: #006838;
+}
+.white{
+  color: white;
+}
+
+
+.header .header-filter{
+    background: url('../img/20414083_668057540054904_5402132987741771661_o.png');
+    background-repeat: no-repeat;
+}
+
+
+.square-card {
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 348px;
+	    height: 22.5rem;
+	border-radius: 6px;
+	background: #fff;
+    text-align: left;
+    position: relative;
+	    transition: box-shadow 0.3s ease, border 0.3s ease;
+	    border: none;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 6px;
+}
+.square-card:hover {
+	    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+    border: none;
+}
+
+/* square-card */
+.square-card a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #525c65;
+	border-bottom: none;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	max-width: 348px;
+}
+.square-card:hover {
+	color: #24292d;
+}
+
+/* 	card-header */
+.card-header {
+	width: 348px;
+	height: 156px;
+	background-size: cover !important;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.casa{
+  background: url(../img/cities/casablanca.jpg);
+}
+.rabat{
+  background: url(../img/cities/rabat.jpg);
+}
+.tangier{
+  background: url(../img/cities/Tangier.jpg);
+}
+.ifrane{
+  background: url(../img/cities/ifrane.jpeg);
+}
+.fez{
+  background: url(../img/cities/Fez.jpg);
+}
+.eljadida{
+  background: url(../img/cities/Eljadida.jpg);
+}
+.oujda{
+  background: url(../img/cities/oujda.jpg);
+}
+.agadir{
+  background: url(../img/cities/Agadir.jpg);
+}
+.marrakech{
+  background: url(../img/cities/marrakech.jpg);
+}
+
+/* card-header_overlay */
+.card-header_overlay {
+	background-color: rgba(2,179,228,0.4);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 9.75rem;
+	width: 100%;
+	z-index: 4000;
+}
+/* pill */
+.pill {
+	color: #02b3e4;
+	position: relative;
+	top: 8px;
+	left: 12px;
+	background-color: #fff;
+	font-size: 0.8125rem;
+	line-height: 1.5rem;
+	height: 1.5rem;
+	padding: 2px 6px;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	z-index: 5000;
+	text-transform: uppercase;
+	font-weight: 600;
+	box-shadow: 4px 6px 8px 0px rgba(46,61,73,0.2);
+}
+
+/* card-title */
+.card-title {
+	padding: 24px 32px;
+	position: relative;
+}
+
+/* card-title > h4 */
+.card-title > h4 {
+/* 	margin-bottom: 0; */
+	font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+/* card-affiliates */
+.card-affiliates {
+	padding: 24px 32px;
+	width: 100%;
+    position: relative;
+}
+
+.card-affiliates ul {
+	height: 26px;
+    overflow: hidden;
+	padding: 0;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.card-affiliates ul li {
+	float: left;
+    margin: 0 20px 0 0;
+}
+.card-affiliates ul li img {
+	height: 36px;
+    margin: -7px 0 0;
+}
