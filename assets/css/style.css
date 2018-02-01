@@ -33,9 +33,19 @@
   background: url(../img/bg/bg5.jpg)
 }
 
-.bg-gradient1{
-  background-image: linear-gradient(to bottom right, #006838, #ED1C24);
+.bgSection1{
+  background-image: url(../img/bg/bg1.png);
 }
+.bgSection2{
+  background-image: url(../img/bg/bg2.png);
+}
+.bgSection3{
+  background-image: url(../img/bg/bg3.png);
+}
+.bgSection4{
+  background-image: url(../img/bg/bg4.png);
+}
+
 
 @font-face {
     font-family: Hairline;
@@ -49,6 +59,14 @@
 
 .Rail{
   font-family: Rail;
+}
+
+.yellow{
+  color: #FCE412;
+}
+
+.active{
+  color: #FCE412;
 }
 
 .Hairline{

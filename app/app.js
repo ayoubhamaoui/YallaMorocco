@@ -32,6 +32,27 @@ function errorCallback(error){
     //error code
 }
 
+     $('.classNav').click(function(){
+       $('li').removeClass('active');
+       $('.classNav').addClass('active')
+     });
+
+     $('.home').click(function(){
+       $('li').removeClass('active');
+       $('.home').addClass('active')
+     });
+
+     $('.cities').click(function(){
+       $('li').removeClass('active');
+       $('.cities').addClass('active')
+     });
+
+     $('.videos').click(function(){
+       $('li').removeClass('active');
+       $('.videos').addClass('active')
+     });
+
+
      $('.classNav').click(function() {
             $('body').addClass('profile-page')
         });
