@@ -16,12 +16,18 @@
 .blue{
     color: #037ef3;
 }
+.blueBg{
+  background-color: #037ef3;
+}
 
 .red{
   color: #ff0000;
 }
 .green{
   color: #006838;
+}
+.white{
+  color: #fff;
 }
 
 .border{
@@ -42,6 +48,9 @@
 .bgSection3{
   background-image: url(../img/bg/bg3.png);
 }
+.bgSection3b{
+  background-image: url(../img/bg/bg3b.png);
+}
 .bgSection4{
   background-image: url(../img/bg/bg4.png);
 }
@@ -52,6 +61,18 @@
     src: url(../font/Lato-Hairline.ttf);
 }
 
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Light.ttf);
+}
+
+.Lato{
+  font-family: Lato;
+}
+
+h2{
+  margin-bottom: 0.78787878787879em;
+}
 @font-face {
   font-family: Rail;
   src: url(../font/Third-Rail-Demo.ttf);
@@ -170,7 +191,7 @@
 
 /* card-header_overlay */
 .card-header_overlay {
-	background-color: rgba(2,179,228,0.4);
+	background-color: rgba(252,228,18,0.4);
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	height: 9.75rem;
@@ -231,4 +252,9 @@
 .card-affiliates ul li img {
 	height: 36px;
     margin: -7px 0 0;
+}
+
+
+.box-shadow-wide {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
