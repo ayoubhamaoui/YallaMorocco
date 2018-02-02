@@ -305,7 +305,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-info.dropdown-toggle, .open >
 .navbar .navbar-nav > li > a.btn.btn-info.dropdown-toggle:focus, .open >
 .navbar .navbar-nav > li > a.btn.btn-info.dropdown-toggle:hover {
-  background-color: #03a9f4;
+  background-color: #4a90e2;
   color: #FFFFFF;
 }
 .btn.btn-info:focus, .btn.btn-info:active, .btn.btn-info:hover,

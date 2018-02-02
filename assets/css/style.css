@@ -54,7 +54,9 @@
 .bgSection4{
   background-image: url(../img/bg/bg4.png);
 }
-
+.col-md-4n {
+    width: 16.33333333%;
+}
 
 @font-face {
     font-family: Hairline;
