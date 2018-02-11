@@ -5,15 +5,23 @@ yallah.config(['$routeProvider',function($routeProvider){
   $routeProvider
      .when('/home', {
        templateUrl: 'views/home.html'
-     })
-     .when('/cities', {
+     }).when('/cities', {
        templateUrl: 'views/cities.html',
        controller: 'project'
      }).when('/about',{
       templateUrl: 'views/about.html',
       controller: 'project'
-  }).when('/videos', {
+     }).when('/videos', {
        templateUrl: 'views/videos.html',
+       controller: 'project'
+     }).when('/gv', {
+       templateUrl: 'views/gv.php',
+       controller: 'project'
+     }).when('/ge', {
+       templateUrl: 'views/ge.php',
+       controller: 'project'
+     }).when('/gt', {
+       templateUrl: 'views/gt.php',
        controller: 'project'
      }).otherwise({
        redirectTo: '/home'
