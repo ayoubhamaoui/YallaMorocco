@@ -1,25 +1,27 @@
+<head>
+	<link href="assets\css\rotating-card.css" rel="stylesheet">
+</head>
+
 <div class="wrapper">
-	<div class="header header-filter" style="background: url('assets/img/20414083_668057540054904_5402132987741771661_o.png'); background-repeat: no-repeat; background-size: 100%">
+	<div class="header header-filter" style="background: url('assets/img/20414083_668057540054904_5402132987741771661_o.png'); background-repeat: no-repeat;">
 		<div class="container">
 			<div class="row">
-				<h1 class="title">Activate Your Potential With</h1>
-				<div id="typed-strings">
-					<p>AIESEC FOR <strong class="yellow">MOROCCO</strong></p>
+				<div class="col-md-8 col-md-offset-2" style="margin-top: -90px;">
+					<h1 class="title">Activate Your Potential With</h1>
+					<div id="typed-strings">
+						<p>AIESEC FOR <strong class="yellow Hairline">MOROCCO</strong></p>
+					</div>
+					<h1 class="title"><span class="typed" id="typed" style="animation-iteration-count: 1;"></span><br/></h1>
+					<script>
+						var typed = new Typed('#typed', {
+							stringsElement: '#typed-strings',
+							loop: true,
+							cursorChar: '|',
+							shuffle: true,
+							typeSpeed: 100,
+						});
+					</script>
 				</div>
-				<h1><span class="typed" id="typed" style="animation-iteration-count: 1;"></span><h1>
-				<script>
-					var typed = new Typed('#typed', {
-						stringsElement: '#typed-strings',
-						loop: true,
-						cursorChar: '|',
-						shuffle: true,
-						typeSpeed: 200,
-					});
-				</script>
-				<a href="https://www.youtube.com/watch?v=Il85o0rK3s8" class="btn btn-danger btn-raised btn-lg">
-					<i class="fa fa-play"></i> Watch video
-				</a>
-
 			</div>
 		</div>
 	</div>
@@ -29,25 +31,40 @@
 		<div class="section section-landing border bg5">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h1 class="title"><strong class="">Story</strong></h1>
-				<h4 class="description">AIESEC has over 60 years of experience in developing high-potential students into globally minded responsible leaders. AIESEC in Morocco is present in 9 cities around the country and has a history of 28 years of activating leadership among young people.
-								AIESEC in Morocco is part of the largest youth-run organization in the world. Present in 124 countries, AIESEC has enabled young people to live life-changing experiences by offering international opportunities to students. In partnership with business and higher education, AIESEC is the world’s largest youth-run organization and offers opportunities to turn your student life into the right springboard for your career.</h4>
-			</div>
-		</div>
-	</div>
-
-	<!--project-->
-	<div class="section border bgSection3">
-		<div class="row text-center">
-			<div class="col-md-5 col-md-offset-4">
-				<h1 class="title">Projects</h1>
-				<h5 class="description what text-center">Morocco, with its amazing historical heritages, is an unique country that combines different cultures and traditions. While discovering the country, you will be amazed by the diversity of the landscapes, ranging from fine beaches to stunning waterfalls  to lonely desserts . All of these aspects make Morocco a perfect destination for your journey. By discovering a beautiful country, you will not only develop your leadership qualities but also grow personally in the challenging and enriching environment the various projects offer. 
+					<h1 class="title"><strong class="title heavy" style="font-size:2em">Story</strong></h1>
+					<h4 class="description regular">AIESEC has over 60 years of experience in developing high-potential students into globally minded responsible leaders. AIESEC in Morocco is present in 9 cities around the country and has a history of 28 years of activating leadership among young people.
+									AIESEC in Morocco is part of the largest youth-run organization in the world. Present in 124 countries, AIESEC has enabled young people to live life-changing experiences by offering international opportunities to students. In partnership with business and higher education, AIESEC is the world’s largest youth-run organization and offers opportunities to turn your student life into the right springboard for your career.</h4>
 				</div>
 			</div>
 		</div>
 
-		<div class="section border">
+		<!--project-->
+		<div class="section border bgSection1">
+			<div class="row">
+				<div class="col-md-7 col-md-offset-2">
+					<h1 class="title"><strong class="title heavy" style="font-size:2em">Project</strong></h1>
+					<h4 class="regular description">Morocco, with its amazing historical heritages, is an unique country that combines different cultures and traditions. While discovering the country, you will be amazed by the diversity of the landscapes, ranging from fine beaches to stunning waterfalls  to lonely desserts . All of these aspects make Morocco a perfect destination for your journey. By discovering a beautiful country, you will not only develop your leadership qualities but also grow personally in the challenging and enriching environment the various projects offer.</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="section border" style="background-color: #F3F4F7;">
 			<div class="row text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<div id="our-project">
+						<p><strong class="yellow heavy">PROJECTS</strong></p>
+					</div>
+					<h1 class="heavy" style="font-size:4em;"> OUR </h1>
+					<h1 class="" style="font-size:4em"><span class="typed" id="pro" style="animation-iteration-count: 1;"></span><br/></h1>
+					<script>
+						var typed = new Typed('#pro', {
+							stringsElement: '#our-project',
+							shuffle: true,
+							cursorChar: '',
+							typeSpeed: 300,
+						});
+					</script>
+				</div>
 				<div class="col-md-4">
 					<div class="info">
 						<div class="icon icon-primary">
@@ -56,124 +73,277 @@
 											<img src="assets/img/logo/bl/Discover.png" alt="Thumbnail Image" class="img-rounded img-responsive dm">
 											<h3>More details</h3>
 					</button>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="info">
-				<div class="icon icon-primary">
-					<!-- Button trigger modal -->
-					<button class="btn btn-white" data-toggle="modal" data-target="#education">
+				<div class="col-md-4">
+					<div class="info">
+						<div class="icon icon-primary">
+							<!-- Button trigger modal -->
+							<button class="btn btn-white" data-toggle="modal" data-target="#education">
 											<img src="assets/img/logo/bl/Education.png" alt="Thumbnail Image" class="img-rounded img-responsive dm">
 											<h3>More details</h3>
 										</button>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="info">
-				<div class="icon icon-primary">
-					<!-- Button trigger modal -->
-					<button class="btn btn-white" data-toggle="modal" data-target="#environment">
+				<div class="col-md-4">
+					<div class="info">
+						<div class="icon icon-primary">
+							<!-- Button trigger modal -->
+							<button class="btn btn-white" data-toggle="modal" data-target="#environment">
 											<img src="assets/img/logo/bl/environment.png" alt="Thumbnail Image" class="img-rounded img-responsive dm">
 											<h3>More details</h3>
 										</button>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="info">
-				<div class="icon icon-primary">
-					<!-- Button trigger modal -->
-					<button class="btn btn-white" data-toggle="modal" data-target="#health">
+				<div class="col-md-4">
+					<div class="info">
+						<div class="icon icon-primary">
+							<!-- Button trigger modal -->
+							<button class="btn btn-white" data-toggle="modal" data-target="#health">
 											<img src="assets/img/logo/bl/Health.png" alt="Thumbnail Image" class="img-rounded img-responsive dm">
 											<h3>More details</h3>
 										</button>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="info">
-				<div class="icon icon-primary">
-					<!-- Button trigger modal -->
-					<button class="btn btn-white" data-toggle="modal" data-target="#ge">
+				<div class="col-md-4">
+					<div class="info">
+						<div class="icon icon-primary">
+							<!-- Button trigger modal -->
+							<button class="btn btn-white" data-toggle="modal" data-target="#ge">
 											<img src="assets/img/logo/bl/gender-equality.png" alt="Thumbnail Image" class="img-rounded img-responsive dm">
 											<h3>More details</h3>
 										</button>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="info">
-				<div class="icon icon-primary">
-					<!-- Button trigger modal -->
-					<button class="btn btn-white" data-toggle="modal" data-target="#se">
+				<div class="col-md-4">
+					<div class="info">
+						<div class="icon icon-primary">
+							<!-- Button trigger modal -->
+							<button class="btn btn-white" data-toggle="modal" data-target="#se">
 											<img src="assets/img/logo/bl/Social-Entrep.png" alt="Thumbnail Image" class="img-rounded img-responsive dm">
 											<h3>More details</h3>
 										</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- slider -->
-<div class="section">
-	<div class="">
-		<div class="section" id="carousel">
-			<div class=" text-center">
-				<div class="">
-					<!-- Carousel Card -->
-					<div class=" card-carousel">
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<div class="carousel slide" data-ride="carousel">
-
-								<!-- Indicators -->
-								<ol class="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
-								</ol>
-
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner">
-									<div class="item">
-										<img src="assets/img/testimonials/ts1.png" alt="Awesome Image">
-									</div>
-
-									<div class="item">
-										<img src="assets/img/testimonials/ts2.png" alt="Awesome Image">
-									</div>
-
-									<div class="item active">
-										<img src="assets/img/testimonials/ts2.png" alt="Awesome Image">
-									</div>
-
-								</div>
-
-								<!-- Controls -->
-								<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-										<i class="material-icons">keyboard_arrow_left</i>
-									</a>
-								<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-										<i class="material-icons">keyboard_arrow_right</i>
-									</a>
-							</div>
 						</div>
 					</div>
-					<!-- End Carousel Card -->
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
 
-</div>
+		<div class="section">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="assets\img\bg2.png">
+									</div>
+									<div class="user">
+										<img class="img-circle" src="assets\img\bg2.png">
+									</div>
+									<div class="content">
+										<div class="main">
+											<br/><br/>
+											<h3 class="name">Omar Akram</h3>
+											<p class="profession">International Director</p>
+										</div>
+										<div class="footer">
+											<button class="btn btn-simple" onclick="rotateCard(this)">
+		                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+		                                </button>
+										</div>
+									</div>
+								</div>
+								<!-- end front panel -->
+								<div class="back">
+									<br/><br/><br/>
+									<div class="content">
+										<div class="main">
+											<h4 class="text-center">"Before I came to Morocco, I wanted to visit the heart of Africa, but I changed my plans to instead visit the Gate of Africa, I can't be more happy about my decision, I've gained so much experience, made many new friends, and started living a brand new life.. I've met alot people with different nationalities from all around the globe, so I visited one country; yet I feel like I've been in 25! Thank you Morocco,"</h4>
+										</div>
+									</div>
+								</div>
+								<!-- end back panel -->
+							</div>
+							<!-- end card -->
+						</div>
+						<!-- end card-container -->
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="assets\img\bg2.png">
+									</div>
+									<div class="user">
+										<img class="img-circle" src="assets\img\bg2.png">
+									</div>
+									<div class="content">
+										<div class="main">
+											<br/><br/>
+											<h3 class="name">Laura Pirrotta</h3>
+											<p class="profession">Vice President Outgoing Exchange Bologna, Italy</p>
+										</div>
+										<div class="footer">
+											<button class="btn btn-simple" onclick="rotateCard(this)">
+		                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+		                                </button>
+										</div>
+									</div>
+								</div>
+								<!-- end front panel -->
+								<div class="back">
+									<br/><br/><br/>
+									<div class="content">
+										<div class="main">
+											<h4 class="text-center">"The Moroccan experience is made of 47 degrees and boiling hot mint tea, it's made of sitting in a café in front of the ocean, it is made of people welcoming you home. A bientôt, Maroc"</h4>
+										</div>
+									</div>
+								</div>
+								<!-- end back panel -->
+							</div>
+							<!-- end card -->
+						</div>
+						<!-- end card-container -->
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="assets\img\bg2.png">
+									</div>
+									<div class="user">
+										<img class="img-circle" src="assets\img\bg2.png">
+									</div>
+									<div class="content">
+										<div class="main">
+											<h3 class="name">Rabeb</h3>
+											<p class="profession">Exchange Participant, Tunisia</p>
+										</div>
+										<div class="footer">
+											<button class="btn btn-simple" onclick="rotateCard(this)">
+		                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+		                                </button>
+										</div>
+									</div>
+								</div>
+								<!-- end front panel -->
+								<div class="back">
+									<br/><br/><br/>
+									<div class="content">
+										<div class="main">
+											<h4 class="text-center">" What I'm deeply greatfull for, is the state of mind I could finally reach thanks to the magic effect of this Wonderland "</h4>
+										</div>
+									</div>
+								</div>
+								<!-- end back panel -->
+							</div>
+							<!-- end card -->
+						</div>
+						<!-- end card-container -->
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- slider -->
+		<div class="section" id="carousel">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-11 col-md-offset-1">
+
+						<!-- Carousel Card -->
+						<div class="card card-raised card-carousel">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<div class="carousel slide" data-ride="carousel">
+
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+										<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+										<div class="item active">
+											<img src="assets\img\bg\casa-mosque.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets\img\bg\Adventure-AbercombieKent-Morocco-Imperial-Cities-960.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets\img\bg\desert_morocco_dune_sand.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets\img\bg\Tangier.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets\img\bg\morocco-fes.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Carousel Card -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end slider -->
+		<div class="section section-download">
+			<div class="container">
+				<div class="sharing-area text-center">
+					<div class="row justify-content-center">
+						<h3>Thank you for supporting us!</h3>
+					</div>
+					<a href="https://www.instagram.com/yalla_morocco/" class="btn btn-b btn-raised btn-lg">
+											<i class="fa fa-facebook"></i> Facebook
+										</a>
+					<a href="https://www.instagram.com/yalla_morocco/s" class="btn btn-i btn-raised btn-lg">
+											<i class="fa fa-instagram"></i> Instagram
+										</a>
+					<a href="https://www.youtube.com/channel/UC_u4uXdIyqdD2elJ6isKVeQ/videos" class="btn btn-r btn-raised btn-lg">
+											<i class="fa fa-youtube"></i> Youtube
+										</a>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
 
 
 </div>

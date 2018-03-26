@@ -53,6 +53,10 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
   vertical-align: middle;
 }
 
+.marg{
+  margin-right: 12px;
+}
+
 /*           Animations              */
 .animation-transition-general, .carousel .carousel-indicators li {
   -webkit-transition: all 300ms linear;
@@ -288,6 +292,22 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
   background-color: transparent;
   color: #282828;
 }
+.btn-b{
+  background-color: #3b5998;
+}
+
+.btn-r{
+  background-color: #CC181E;
+}
+
+.btn-i{
+  background:
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #e95950 100%),
+  linear-gradient(-45deg, #bc2a8d 0%,  #fccc63 0.3%, #fbad50 112%,  transparent 11% ),
+  linear-gradient(-90deg, #cd486b 100%, #4c68d7 65%,#8a3ab9 100%, transparent 20% )
+  ;
+}
+
 .btn.btn-info,
 .navbar .navbar-nav > li > a.btn.btn-info {
   box-shadow: 0 2px 2px 0 rgba(3, 169, 244, 0.14), 0 3px 1px -2px rgba(3, 169, 244, 0.2), 0 1px 5px 0 rgba(3, 169, 244, 0.12);
@@ -420,9 +440,10 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
   background-color: transparent;
   color: #4caf50;
 }
+
 .btn.btn-warning,
 .navbar .navbar-nav > li > a.btn.btn-warning {
-  box-shadow: 0 2px 2px 0 rgba(251, 192, 45, 0.14), 0 3px 1px -2px rgba(251, 192, 45, 0.2), 0 1px 5px 0 rgba(251, 192, 45, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(223, 89, 80, 0.14), 0 3px 1px -2px rgba(223, 89, 80, 0.2), 0 1px 5px 0 rgba(223, 89, 80, 0.12);
 }
 .btn.btn-warning, .btn.btn-warning:hover, .btn.btn-warning:focus, .btn.btn-warning:active, .btn.btn-warning.active, .btn.btn-warning:active:focus, .btn.btn-warning:active:hover, .btn.btn-warning.active:focus, .btn.btn-warning.active:hover, .open > .btn.btn-warning.dropdown-toggle, .open > .btn.btn-warning.dropdown-toggle:focus, .open > .btn.btn-warning.dropdown-toggle:hover,
 .navbar .navbar-nav > li > a.btn.btn-warning,

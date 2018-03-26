@@ -23,6 +23,9 @@ yallah.config(['$routeProvider',function($routeProvider){
      }).when('/gt', {
        templateUrl: 'views/gt.php',
        controller: 'project'
+     }).when('/faq', {
+       templateUrl: 'views/faq.html',
+
      }).otherwise({
        redirectTo: '/home'
      });
@@ -45,6 +48,18 @@ function errorCallback(error){
        $('.classNav').addClass('active')
      });
 
+     $('.faq').click(function(){
+       $('li').removeClass('active');
+       $('.faq').addClass('active')
+       $('#navigation-example').removeClass('in');
+     });
+
+     $('.opp').click(function(){
+       $('li').removeClass('active');
+       $('.opp').addClass('active')
+       $('#navigation-example').removeClass('in');
+     });
+
      $('.home').click(function(){
        $('li').removeClass('active');
        $('.home').addClass('active')
@@ -52,21 +67,24 @@ function errorCallback(error){
 
      $('.cities').click(function(){
        $('li').removeClass('active');
-       $('.cities').addClass('active')
+       $('.cities').addClass('active');
+       $('#navigation-example').removeClass('in');
      });
 
      $('.videos').click(function(){
        $('li').removeClass('active');
-       $('.videos').addClass('active')
+       $('.videos').addClass('active');
+       $('#navigation-example').removeClass('in');
      });
 
 
      $('.classNav').click(function() {
-            $('body').addClass('profile-page')
+            $('body').addClass('profile-page');
+            $('#navigation-example').removeClass('in');
         });
 
      $('.classHome').click(function() {
-            $('body').removeClass('profile-page')
+            $('body').removeClass('profile-page');
         });
 
 }]);

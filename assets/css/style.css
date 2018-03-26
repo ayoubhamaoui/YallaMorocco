@@ -13,8 +13,17 @@
     height: auto;
 }
 
+.smr{
+  margin-right: 5px;
+}
+.card-title > h4{
+  margin-top: -5px;
+}
 .blue{
     color: #037ef3;
+}
+.bgblue{
+  background-color: #037ef3;
 }
 .blueBg{
   background-color: #037ef3;
@@ -23,8 +32,19 @@
 .red{
   color: #ff0000;
 }
+.bgred{
+  background-color: #F85A40;
+}
 .green{
   color: #006838;
+}
+
+.bggre{
+  background-color: #30C39E;
+}
+
+.bgyel{
+  background-color: #FFC845;
 }
 .white{
   color: #fff;
@@ -40,7 +60,7 @@
 }
 
 .bgSection1{
-  background-image: url(../img/bg/bg1.png);
+  background-image: url(../img/bg/bg1l.png);
 }
 .bgSection2{
   background-image: url(../img/bg/bg2.png);
@@ -78,6 +98,38 @@ h2{
 @font-face {
   font-family: Rail;
   src: url(../font/Third-Rail-Demo.ttf);
+}
+
+@font-face {
+  font-family: light;
+  src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: heavy;
+  src: url(../font/Lato-Heavy.ttf);
+}
+
+.heavy{
+  font-family: heavy;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(../font/Lato-Regular.ttf);
+}
+
+.regular{
+  font-family: regular;
+  margin-left: 15px;
+}
+
+.heavy{
+  font-family: regular;
+}
+
+.light{
+  font-family: light;
 }
 
 .Rail{
@@ -157,8 +209,6 @@ h2{
 
 /* 	card-header */
 .card-header {
-	width: 348px;
-	height: 156px;
 	background-size: cover !important;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
@@ -191,12 +241,14 @@ h2{
   background: url(../img/cities/marrakech.jpg);
 }
 
+
+
 /* card-header_overlay */
 .card-header_overlay {
 	background-color: rgba(252,228,18,0.4);
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
-	height: 9.75rem;
+	height: 15.6rem;
 	width: 100%;
 	z-index: 4000;
 }

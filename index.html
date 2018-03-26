@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" href="assets/img/logo/bl/yallaW.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
   <title>Yallah Morocco</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-
   <!--     Fonts and icons     -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
@@ -41,12 +40,12 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-	        	<span class="sr-only">AIESEC</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Yalla Morocco</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
         <a href="#!/home" class="classHome">
           <div class="logo-container">
             <div class="logo">
@@ -57,20 +56,36 @@
       </div>
 
       <div class="collapse navbar-collapse" id="navigation-example">
-        <ul class="nav navbar-nav navbar-right" align="center">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" class="classNav">Product<b class="caret"></b></a>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="opp"><a href="#!/gv">Opportunities</a></li>
+          <li class="cities"><a href="#!/cities" class="classNav">Cities</a></li>
+          <li class="dropdown nav-item">
             <ul class="dropdown-menu">
-              <li><a href="#!/gv" class="classNav">Global Volunteer</a></li>
-              <li><a href="#!/gt" class="classNav">Global Talent</a></li>
-              <li><a href="#!/ge" class="classNav">Global Entrepreneur</a></li>
+              <li class="videos"><a href="#!/videos" class="classNav"><i class="material-icons marg">video_library </i>Videos</a></li>
+              <li><a href="#!/about" class="classNav"><i class="material-icons marg">info</i>About</a></li>
+              <li><a href="#!/faq" class="classNav"><i class="material-icons marg">question_answer</i>FAQ</a></li>
+              <li><a href="https://aiesecformorocco.000webhostapp.com/p/" class="classNav"><i class="material-icons marg">web</i>AIESEC IN MOROCCO</a></li>
             </ul>
+            <a href="" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+                            More<i class="material-icons">more_vert</i>
+                        <div class="ripple-container"></div></a>
           </li>
 
-          <li class="home"><a href="#!/home">Home</a></li>
-          <li class="cities"><a href="#!/cities" class="classNav">Cities</a></li>
-          <li class="videos"><a href="#!/videos" class="classNav">Videos</a></li>
-          <li class="classNav"><a href="#!/about">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/AIESECMorocco/" target="_blank" data-original-title="Like us on Facebook">
+                            <i class="fa fa-facebook-square"></i>
+                        <div class="ripple-container"></div></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/yalla_morocco/" target="_blank" data-original-title="Follow us on Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.youtube.com/channel/UC_u4uXdIyqdD2elJ6isKVeQ" target="_blank" data-original-title="Follow us on Youtube">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+          </li>
 
         </ul>
       </div>
@@ -78,14 +93,16 @@
   </nav>
   <!-- end navbar -->
 
-  <main ng-view></main>
+  <main ng-view>
+
+  </main>
 
   <footer class="footer">
     <div class="container">
       <nav class="pull-left">
         <ul>
           <li>
-            <a href="#!/contact">
+            <a href="https://www.facebook.com/AIESECMorocco/">
 															Contact us
 													</a>
           </li>
@@ -94,20 +111,10 @@
 														 About Us
 													</a>
           </li>
-          <li>
-            <a href="#!/blog">
-														 Blog
-													</a>
-          </li>
-          <li>
-            <a href="login/index.html">
-														 Admin
-													</a>
-          </li>
         </ul>
       </nav>
       <div class="copyright pull-right">
-        &copy; All rights reserved, made with <i class="fa fa-heart heart"></i> by AIESEC for Morocco
+        &copy; All rights reserved, made with <i class="fa fa-heart heart"></i> <a href="https://www.facebook.com/AIESECMorocco/">by AIESEC for Morocco</a>
       </div>
     </div>
   </footer>
